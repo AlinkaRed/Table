@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\USER\Table\Table\TSortTable.h(169,12): warning C4101: mini: неиспользованная локальная переменная
+  (компиляция исходного файла "Table/main.cpp")
+  C:\Users\USER\Table\Table\TSortTable.h(169,12):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\USER\Table\Table\main.cpp(9,11):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "TSortTable<int,int>"
+  	C:\Users\USER\Table\Table\TSortTable.h(168,1):
+  	во время компиляции функции-члена класс шаблон "void TSortTable<int,int>::SelectSort(void)"
+  
+  Table.vcxproj -> C:\Users\USER\Table\x64\Debug\Table.exe

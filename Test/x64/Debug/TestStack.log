@@ -1,0 +1,41 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (TestStack.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  t.cpp
+C:\Users\USER\TTable\TTable\TSortTable.h(169,12): warning C4101: mini: неиспользованная локальная переменная
+  (компиляция исходного файла "t.cpp")
+  C:\Users\USER\TTable\TTable\TSortTable.h(169,12):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\USER\TTable\Test\t.cpp(141,13):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "TSortTable<int,int>"
+  	C:\Users\USER\TTable\TTable\TSortTable.h(168,1):
+  	во время компиляции функции-члена класс шаблон "void TSortTable<int,int>::SelectSort(void)"
+  
+C:\Users\USER\TTable\Test\gtest.h(18863,19): warning C4805: ==: небезопасное смешение типа "const T1" и типа "const T2" в операции
+C:\Users\USER\TTable\Test\gtest.h(18863,19): warning C4805:         with
+C:\Users\USER\TTable\Test\gtest.h(18863,19): warning C4805:         [
+C:\Users\USER\TTable\Test\gtest.h(18863,19): warning C4805:             T1=bool
+C:\Users\USER\TTable\Test\gtest.h(18863,19): warning C4805:         ]
+C:\Users\USER\TTable\Test\gtest.h(18863,19): warning C4805:         and
+C:\Users\USER\TTable\Test\gtest.h(18863,19): warning C4805:         [
+C:\Users\USER\TTable\Test\gtest.h(18863,19): warning C4805:             T2=int
+C:\Users\USER\TTable\Test\gtest.h(18863,19): warning C4805:         ]
+  (компиляция исходного файла "t.cpp")
+  C:\Users\USER\TTable\Test\gtest.h(18863,19):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\USER\TTable\Test\t.cpp(22,5):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "testing::AssertionResult testing::internal::EqHelper<false>::Compare<bool,int>(const char *,const char *,const T1 &,const T2 &)"
+          with
+          [
+              T1=bool,
+              T2=int
+          ]
+  		C:\Users\USER\TTable\Test\t.cpp(22,5):
+  		см. первую ссылку на testing::internal::EqHelper<false>::Compare "TScanTable_CAN_SET_GET_CURRENT_REC_Test::TestBody"
+  	C:\Users\USER\TTable\Test\gtest.h(18899,12):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "testing::AssertionResult testing::internal::CmpHelperEQ<T1,T2>(const char *,const char *,const T1 &,const T2 &)"
+          with
+          [
+              T1=bool,
+              T2=int
+          ]
+  
+  TestStack.vcxproj -> C:\Users\USER\TTable\x64\Debug\Test.exe
