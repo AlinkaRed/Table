@@ -70,10 +70,4 @@ void main() {
 	s3->MergeSort(0, 3);
 	cout << "TSortTable: " << endl;
 	cout << s3 << endl;*/
-	TTable<int, int>* h1;
-	h1 = new ArrayHashTable<int, int>(1);
-	TRecord<int, int> rec = { 1, 100 };
-	h1->ins(rec);
-	h1->find(1);
-	cout << h1->getEff();
 }

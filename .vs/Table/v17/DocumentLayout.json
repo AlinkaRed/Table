@@ -3,10 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Table\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\TTable\\TTable\\TTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{976A21EA-6680-4F42-B96F-229405E51CB0}|Table.vcxproj|C:\\Users\\USER\\Table\\Table\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{976A21EA-6680-4F42-B96F-229405E51CB0}|Table.vcxproj|solutionrelative:Table\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\TTable\\TTable\\TSortTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\TTable\\TTable\\TTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\TTable\\TTable\\TScanTable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -51,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Table\\Table\\main.cpp",
+              "RelativeDocumentMoniker": "Table\\main.cpp",
+              "ToolTip": "C:\\Users\\USER\\Table\\Table\\main.cpp",
+              "RelativeToolTip": "Table\\main.cpp",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-02T08:25:11.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TTable.h",
               "DocumentMoniker": "C:\\Users\\USER\\TTable\\TTable\\TTable.h",
               "RelativeDocumentMoniker": "..\\TTable\\TTable\\TTable.h",
@@ -71,11 +88,12 @@
               "RelativeToolTip": "..\\TTable\\TTable\\TSortTable.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-02T08:11:30.765Z"
+              "WhenOpened": "2025-04-02T08:11:30.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TScanTable.h",
               "DocumentMoniker": "C:\\Users\\USER\\TTable\\TTable\\TScanTable.h",
               "RelativeDocumentMoniker": "..\\TTable\\TTable\\TScanTable.h",
@@ -87,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TRecord.h",
               "DocumentMoniker": "C:\\Users\\USER\\TTable\\TTable\\TRecord.h",
               "RelativeDocumentMoniker": "..\\TTable\\TTable\\TRecord.h",
@@ -99,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TArrayTable.h",
               "DocumentMoniker": "C:\\Users\\USER\\TTable\\TTable\\TArrayTable.h",
               "RelativeDocumentMoniker": "..\\TTable\\TTable\\TArrayTable.h",
@@ -111,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HashTable.h",
               "DocumentMoniker": "C:\\Users\\USER\\TTable\\TTable\\HashTable.h",
               "RelativeDocumentMoniker": "..\\TTable\\TTable\\HashTable.h",
@@ -123,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ArrayHashTable.h",
               "DocumentMoniker": "C:\\Users\\USER\\TTable\\TTable\\ArrayHashTable.h",
               "RelativeDocumentMoniker": "..\\TTable\\TTable\\ArrayHashTable.h",
@@ -135,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\TTable\\TTable\\main.cpp",
               "RelativeDocumentMoniker": "..\\TTable\\TTable\\main.cpp",
